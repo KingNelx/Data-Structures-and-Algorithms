@@ -28,5 +28,27 @@ public class Act1 {
       for(int i = 0; i < myNumbers.length; i++){
           System.out.println(myNumbers[i]);
       }
+
+        System.out.println(" Before Sorting the Names .. ");
+
+      for(int i = 0; i < myNames.length; i++){
+          System.out.println(myNames[i]);
+      }
+
+      for(int i = 0; i < myNames.length; i++){
+          for(int j = 0; j < myNames.length; j++){
+              String temp;
+              if(myNames[i].compareTo(myNames[j]) < 0){
+                    temp = myNames[i];
+                    myNames[i] = myNames[j];
+                    myNames[j] = temp;
+              }
+          }
+      }
+
+        System.out.println(" After Sorting the Names .. ");
+      for(int i = 0; i < myNames.length; i++){
+          System.out.println(myNames[i]);
+      }
     }
 }
