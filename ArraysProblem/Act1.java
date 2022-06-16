@@ -1,7 +1,5 @@
 package ArraysProblem;
 
-import java.util.Arrays;
-import java.util.stream.IntStream;
 
 public class Act1 {
     public static void main (String[]args){
@@ -11,7 +9,24 @@ public class Act1 {
       String[]myNames = {"Invoker", "Tinker", "Sniper", "Templar", "Earth shaker",
             "Witch Doctor", "Shadow Fiend"};
 
+        System.out.println(" Before Sorting.. ");
+        for(int i = 0; i < myNumbers.length; i++){
+            System.out.println(myNumbers[i]);
+        }
 
-
+      for(int i = 0; i < myNumbers.length; i++){
+        for(int j = 0; j < myNumbers.length; j++){
+            int temp;
+            if(myNumbers[i] > myNumbers[j]){
+                temp = myNumbers[i];
+                myNumbers[i] = myNumbers[j];
+                myNumbers[j] = temp;
+            }
+        }
+      }
+        System.out.println(" After Sorting.. ");
+      for(int i = 0; i < myNumbers.length; i++){
+          System.out.println(myNumbers[i]);
+      }
     }
 }
