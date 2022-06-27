@@ -1,4 +1,4 @@
-package ArraysProblem;
+package ProblemSolving;
 
 
 public class Act1 {
