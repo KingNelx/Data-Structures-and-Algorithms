@@ -1,0 +1,14 @@
+What is an Array
+- An array is the simplest data structure we can use to store a data, an array can store one data type only
+- which means if the array is int, then we can only store an int data type etc ...
+
+- Array Advantages
+Random access
+Easy sorting and iteration
+Replacement of multiple variables
+
+- Array Disadvantages
+Size is fixed
+Difficult to insert and delete
+If capacity is more and occupancy less, most of the array gets wasted 
+Needs contiguous memory to get allocated
